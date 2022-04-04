@@ -1,0 +1,17 @@
+.bg-navy{
+    background-color: #1f2937;
+}
+
+.bg-gray{
+    background-color: #e5e7eb;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}

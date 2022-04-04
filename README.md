@@ -1,1 +1,2 @@
 # PL
+This is a re-do of repo landing-page. This page will feature a call to sign up for a free consultation for powerlifting. It will display my powerlifting accomplishments with photos from meets along with a list of my PRs.
