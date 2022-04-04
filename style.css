@@ -4,6 +4,9 @@
 
 .bg-gray{
     background-color: #e5e7eb;
+    font-size: 2.25rem;
+    font-style: italic;
+    color: #1f2937;
 }
 
 a{
@@ -12,6 +15,11 @@ a{
 
 h1{
     color: #f9faf8;
-    font-size: 48px;
+    font-size: 1.125rem;
     font-weight: bolder;
+}
+
+a, .sl-text{
+    font-size: 1.125rem;
+    color: #e5e7eb;
 }
