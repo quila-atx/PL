@@ -113,7 +113,6 @@ img.pic-main{
     width: 8em;
     height 8em;
     border-radius: 0.75em;
-    background-color: black;
 }
 
 .squat, .bench, .deadlift, .winner{
@@ -157,10 +156,17 @@ img.pic-main{
 .quote{
     display: flex;
     flex-direction: column;
-    padding: 3em 8em;
+    padding: 1.25em 8em;
+    width: 100%;
+    gap: 1.25em;
+    text-align: center;
 }
 
 .signature{
     display:flex;
     justify-content: flex-end;
 }
+
+/*Call to action*/
+
+.
