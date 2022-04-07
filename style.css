@@ -14,6 +14,7 @@ body{
 
 .bg-navy{
     background-color: #1f2937;
+    width: 100%;
 }
 
 .bg-gray{
@@ -55,7 +56,6 @@ button{
 header.bg-navy{
     display: flex;
     flex-direction: column;
-    width: 100%;
     padding: .0625em 4.6875em 4.6875em;
 }
 
@@ -191,4 +191,11 @@ button.call{
     justify-content: center;
     align-items: center;
     padding:
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    padding: 2em;
+    color: #e5e7eb;
 }
