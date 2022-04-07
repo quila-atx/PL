@@ -105,7 +105,6 @@ img{
 img.pic-main{
     width: 31.25em;
     height: 18.75em;
-    object-fit: contain;
     object-position: right;
 }
 
@@ -113,6 +112,14 @@ img.pic-main{
 .photo-container{
     width: 8em;
     height 8em;
+    border-radius: 0.75em;
+    background-color: black;
+}
+
+.squat, .bench, .deadlift, .winner{
+    width: 8em;
+    height: 8em;
+    object-fit: fill;
     border-radius: 0.75em;
 }
 
@@ -129,6 +136,7 @@ img.pic-main{
     justify-content: center;
     gap: 3em;
     margin: 2em;
+    flex-shrink: 1;
 }
 
 .gallery{
@@ -144,6 +152,16 @@ img.pic-main{
     justify-content: center;
 }
 
-.info-pic{
-    border-radius: 0.75em;
+
+/*Quote*/
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 3em 8em;
+}
+
+.signature{
+    display:flex;
+    justify-content: flex-end;
 }
