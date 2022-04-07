@@ -52,12 +52,6 @@ button{
     width: 6em;
 }
 
-button.call{
-   border-color: #e5e7eb; 
-   border-style: solid;
-   border: 0.25rem;
-}
-
 header.bg-navy{
     display: flex;
     flex-direction: column;
@@ -169,4 +163,31 @@ img.pic-main{
 
 /*Call to action*/
 
-.
+.call{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 0.5em;
+    margin: 3em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+}
+
+.call-line{
+    color: #f9faf8;
+    font-size: 1.25em;
+}
+
+button.call{
+    border-color: #f9faf8;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:
+}
