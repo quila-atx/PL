@@ -50,7 +50,7 @@ button{
     border-style: none;
     padding: 0.3125rem;
     color: #e5e7eb;
-    width: 6em;
+    width: 20%;
 }
 
 header.bg-navy{
@@ -59,6 +59,9 @@ header.bg-navy{
     padding: .0625em 4.6875em 4.6875em;
 }
 
+ol, .logo, .header-left, .header-right{
+    width: 50%;
+}
 .header-main{
     padding-top: 5em;
     gap: 5em;
@@ -75,10 +78,8 @@ ol{
 }
 
 .img-container{
-    width: 31.25em;
-    height: 18.75em;
-    background-color: #1f2937;
-    display: flex;
+    width: 100%;
+    height: 80%;
 }
 
 .header-left{
@@ -87,25 +88,22 @@ ol{
     gap: 1em;
 }
 
+.header-right{
+    display: flex;
+}
+
 .logo-container{
-    width: 5em;
-    height: 5em;
+    width: 20%;
 }
 
 img{
    max-width: 100%;
 }
 
-img.pic-main{
-    width: 31.25em;
-    height: 18.75em;
-    object-position: right;
-}
 
 /* Info section*/
 .photo-container{
-    width: 8em;
-    height 8em;
+    width: 100%;
     border-radius: 0.75em;
 }
 
@@ -118,8 +116,8 @@ img.pic-main{
 
 .grey-text{
     color: #36393f;
-    width: 8em;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .info{
@@ -140,7 +138,7 @@ img.pic-main{
 .info-box{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
     justify-content: center;
 }
 
@@ -190,7 +188,7 @@ button.call{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:
+    width: 20%;
 }
 
 /*Footer*/
